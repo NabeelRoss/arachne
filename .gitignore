@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing / Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary web runtime jobs and uploads (created dynamically by app.py)
+web_outputs/jobs/*
+web_outputs/uploads/*
+!web_outputs/jobs/.gitkeep
+!web_outputs/uploads/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local IDE configuration
+.vscode/
+.idea/
+
